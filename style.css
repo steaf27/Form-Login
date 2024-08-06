@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(img.jpg) no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 420px;
+  color: #ffff;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+.container h1 {
+  text-align: center;
+  font-size: 36px;
+}
+.container .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+.container input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  padding: 20px 45px 20px 20px;
+  color: white;
+}
+.container input::-webkit-input-placeholder {
+  color: #ffff;
+}
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.container .btn {
+  width: 100%;
+  height: 45px;
+  background: #ffff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+.container .btn:hover {
+  background: navy;
+  color: white;
+}
+.container .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.register-link p a {
+  color: #ffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.register-link p a:hover {
+  text-decoration: underline;
+}
